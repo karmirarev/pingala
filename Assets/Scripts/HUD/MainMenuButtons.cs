@@ -1,34 +1,26 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
 public class MainMenuButtons : MonoBehaviour
 {
-    public GameObject InstructionsPanel;
+    [SerializeField] private GameObject mainMenuPanel;
+    [SerializeField] private GameObject guidePanel;
+    [SerializeField] private GameObject gamePanel;
 
     public void NewGame()
     {
-        SceneManager.LoadScene("Game");
+        mainMenuPanel.SetActive(false);
+        gamePanel.SetActive(true);
     }
 
-    public void ContinueGame()
+    public void ShowGuide()
     {
-        // Load the last saved game state.
-        Debug.Log("Continue Game button clicked.");
-    }
-
-    public void Instructions()
-    {
-        if (InstructionsPanel != null)
-        {
-            InstructionsPanel.SetActive(!InstructionsPanel.activeSelf);
-        }
+        guidePanel.SetActive(true);
+        mainMenuPanel.SetActive(false);
     }
 
     public void BackToMainMenu()
     {
-        InstructionsPanel.SetActive(false);
+        guidePanel.SetActive(false);
+        mainMenuPanel.SetActive(true);
     }
 }
