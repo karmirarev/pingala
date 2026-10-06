@@ -60,7 +60,7 @@ public class Number : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IPo
 
     public void OnNumberClick()
     {
-        if (wasLongPress) return;
+        if (wasLongPress || isMarked) return;
 
         ioManager.HandleNumberInput(digit);
     }
