@@ -14,6 +14,7 @@ public class IOManager : MonoBehaviour
 
     private Row[] inputRows;
     private Row[] outputRows;
+    private Number[] numberKeys;
     private int currentRowIndex;
     private int currentColumnIndex;
     private int correctNumberCounter;
@@ -30,6 +31,7 @@ public class IOManager : MonoBehaviour
     {
         inputRows = inputField.GetComponentsInChildren<Row>();
         outputRows = outputField.GetComponentsInChildren<Row>();
+        numberKeys = FindObjectsByType<Number>(FindObjectsSortMode.None);
     }
 
     public void GenerateHiddenNumber()
@@ -84,6 +86,7 @@ public class IOManager : MonoBehaviour
         {
             inputRows[currentRowIndex].tiles[currentColumnIndex].SetDigit(inputNumber);
             currentColumnIndex++;
+            SetKeyUsed(inputNumber, true);
         }
     }
 
@@ -94,7 +97,20 @@ public class IOManager : MonoBehaviour
         if (currentColumnIndex > 0)
         {
             currentColumnIndex--;
-            inputRows[currentRowIndex].tiles[currentColumnIndex].ClearLastDigit();
+            Tile tile = inputRows[currentRowIndex].tiles[currentColumnIndex];
+            SetKeyUsed(tile.digit, false);
+            tile.ClearLastDigit();
+        }
+    }
+
+    private void SetKeyUsed(int digit, bool used)
+    {
+        for (int i = 0; i < numberKeys.Length; i++)
+        {
+            if (numberKeys[i].digit == digit)
+            {
+                numberKeys[i].SetUsed(used);
+            }
         }
     }
 
@@ -109,6 +125,11 @@ public class IOManager : MonoBehaviour
             outputRows[currentRowIndex].tiles[1].SetDigit(correctPlacementCounter);
             currentRowIndex++;
             currentColumnIndex = 0;
+
+            for (int i = 0; i < numberKeys.Length; i++)
+            {
+                numberKeys[i].SetUsed(false);
+            }
         }
 
         if (correctPlacementCounter == 4)
