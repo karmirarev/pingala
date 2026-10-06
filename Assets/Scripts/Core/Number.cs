@@ -75,5 +75,6 @@ public class Number : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IPo
     {
         isMarked = !isMarked;
         image.color = isMarked ? markedColor : normalColor;
+        button.transition = isMarked ? Selectable.Transition.None : Selectable.Transition.ColorTint;
     }
 }
