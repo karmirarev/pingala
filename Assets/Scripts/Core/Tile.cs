@@ -7,9 +7,6 @@ public class Tile : MonoBehaviour
     public int digit;
 
     private TextMeshProUGUI text;
-    // private TileType tileType;
-    // private bool isHidden;
-    // private int feedbackValue;
 
     private void Awake()
     {

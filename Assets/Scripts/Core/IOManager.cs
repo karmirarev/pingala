@@ -11,8 +11,6 @@ public class IOManager : MonoBehaviour
     [SerializeField] private GameObject WinningText;
     [SerializeField] private GameObject LosingText;
     [SerializeField] private Tile[] hiddenTiles;
-    [SerializeField] private GameObject mainMenuPanel;
-    [SerializeField] private GameObject gamePanel;
 
     private Row[] inputRows;
     private Row[] outputRows;
@@ -32,9 +30,6 @@ public class IOManager : MonoBehaviour
     {
         inputRows = inputField.GetComponentsInChildren<Row>();
         outputRows = outputField.GetComponentsInChildren<Row>();
-                
-        Debug.Log("inputRows: " + inputRows.Length);
-        Debug.Log("outputRows: " + outputRows.Length);
     }
 
     public void GenerateHiddenNumber()
@@ -66,15 +61,14 @@ public class IOManager : MonoBehaviour
         }
     }
 
-    public void MainMenu()
-    {
-        gamePanel.SetActive(false);
-        mainMenuPanel.SetActive(true);
-    }
-
     public void HandleNumberInput(int inputNumber)
     {
         if (gameOver) return;
+
+        if (currentColumnIndex >= inputRows[currentRowIndex].tiles.Length)
+        {
+            return;
+        }
 
         bool isDuplicate = false;
 
@@ -82,14 +76,12 @@ public class IOManager : MonoBehaviour
         {
             if (inputNumber == inputRows[currentRowIndex].tiles[i].digit && currentColumnIndex < inputRows[currentRowIndex].tiles.Length)
             {
-                Debug.Log("retard");
                 isDuplicate = true;
             }
         }
 
         if (isDuplicate == false)
         {
-            Debug.Log("number written");
             inputRows[currentRowIndex].tiles[currentColumnIndex].SetDigit(inputNumber);
             currentColumnIndex++;
         }
@@ -110,7 +102,6 @@ public class IOManager : MonoBehaviour
     {
         if (gameOver) return;
 
-        Debug.Log("output tiles count: " + outputRows[currentRowIndex].tiles.Length);
         if (currentColumnIndex == 4)
         {
             CompareGuess();
