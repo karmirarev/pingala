@@ -1,0 +1,71 @@
+1980|Pac-Man is released.
+6371|The Earth's average radius in kilometers.
+1492|Columbus reaches the Americas.
+1937|The Golden Gate Bridge opens.
+1820|People see Antarctica for the first time.
+2019|The first image of a black hole is revealed.
+1983|The internet switches to TCP/IP, often called its birthday.
+2718|The first digits of e, the number behind growth: 2.718.
+1965|Gordon Moore predicts chips will keep doubling their transistors.
+1975|Microsoft is founded.
+1953|Hillary and Tenzing are the first to reach the top of Everest.
+1760|Yards in a mile.
+1905|Einstein's miracle year: four papers that change physics.
+1863|The London Underground opens, the world's first metro.
+1896|The first modern Olympic Games are held in Athens.
+1503|Leonardo da Vinci starts painting the Mona Lisa.
+8760|Hours in a year (without a leap day).
+1895|The Lumiere brothers hold one of the first public film screenings.
+1874|The first Impressionist exhibition opens in Paris.
+1769|James Watt patents his improved steam engine.
+5280|Feet in a mile.
+1846|Ether is first shown in public as an anesthetic for surgery.
+1869|Mendeleev creates the periodic table.
+1903|The Wright brothers make the first powered airplane flight.
+1945|World War II ends.
+1978|Space Invaders is released.
+1859|Darwin publishes On the Origin of Species.
+1926|John Logie Baird shows the first working television.
+1826|Around now, the oldest surviving photo is taken.
+1024|Bytes in a kilobyte of computer memory.
+1927|Charles Lindbergh flies solo across the Atlantic.
+1972|Pong, one of the first hit video games, is released.
+3142|Pi rounded to three decimals: 3.142.
+1984|The first Apple Macintosh goes on sale.
+1830|The first inter-city passenger railway opens.
+1735|Linnaeus publishes his system for sorting living things.
+1976|Apple is founded.
+2016|Scientists announce the first detection of gravitational waves.
+1968|Apollo 8 takes the famous Earthrise photo.
+1957|Sputnik 1, the first artificial satellite, is launched.
+1876|Alexander Graham Bell patents the telephone.
+1958|NASA is founded.
+1973|The first handheld mobile phone call is made.
+6174|Kaprekar's constant: a number trick on 4 digits always lands here.
+1936|Alan Turing describes the Turing machine.
+2048|The tile you need to win the game 2048.
+1946|ENIAC, one of the first general-purpose computers, is unveiled.
+1796|Edward Jenner gives the first vaccine, against smallpox.
+1729|The smallest number that is a sum of two cubes in two ways.
+1930|Pluto is discovered.
+1543|Copernicus says the Earth goes around the Sun.
+1985|Super Mario Bros. is released.
+1928|Alexander Fleming discovers penicillin.
+1089|The answer to a famous trick with reversed 3-digit numbers.
+1804|Napoleon crowns himself emperor of France.
+1564|Shakespeare and Galileo are both born.
+1879|Edison shows off his long-lasting light bulb.
+1893|New Zealand lets women vote, a world first.
+1605|The first part of Don Quixote is published.
+1504|Michelangelo finishes his statue of David.
+1789|The French Revolution begins.
+1908|The Ford Model T goes on sale.
+2015|New Horizons flies past Pluto.
+1687|Newton publishes his laws of motion and gravity.
+1967|Doctors perform the first human heart transplant.
+1783|The first people fly, in a hot-air balloon.
+1752|Benjamin Franklin flies his kite in a thunderstorm.
+1609|Galileo points a telescope at the night sky.
+1974|Erno Rubik invents the Rubik's Cube.
+1836|A proton weighs about 1836 times as much as an electron.
+1947|The transistor is invented at Bell Labs.

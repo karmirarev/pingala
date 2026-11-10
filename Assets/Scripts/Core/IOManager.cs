@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
@@ -21,10 +22,19 @@ public class IOManager : MonoBehaviour
     private int correctPlacementCounter;
     private int[] hiddenNumber;
     private bool gameOver;
+    private bool isDaily;
+    private string dailyFact;
 
     void Start()
     {
-        GenerateHiddenNumber();
+        if (!DailyPuzzle.IsDoneToday() && DailyPuzzle.TryGetToday(out hiddenNumber, out dailyFact))
+        {
+            isDaily = true;
+        }
+        else
+        {
+            GenerateHiddenNumber();
+        }
     }
 
     private void Awake()
@@ -146,6 +156,8 @@ public class IOManager : MonoBehaviour
 
     private IEnumerator RevealSequence(bool isWinning)
     {
+        if (isDaily) DailyPuzzle.MarkDoneToday();
+
         for (int i = 0; i < hiddenNumber.Length; i++)
         {
             hiddenTiles[i].SetDigit(hiddenNumber[i]);
@@ -161,12 +173,12 @@ public class IOManager : MonoBehaviour
         yield return new WaitForSeconds(1f);
 
         WinningLosingPanel.SetActive(true);
-        if (isWinning)
+        GameObject resultText = isWinning ? WinningText : LosingText;
+        resultText.SetActive(true);
+
+        if (isDaily)
         {
-            WinningText.SetActive(true);
-        } else
-        {
-            LosingText.SetActive(true);
+            resultText.GetComponent<TMP_Text>().text += "\n\n<size=50%>" + dailyFact;
         }
     }
 
