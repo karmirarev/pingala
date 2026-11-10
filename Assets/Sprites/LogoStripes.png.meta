@@ -1,0 +1,1510 @@
+fileFormatVersion: 2
+guid: e7b0cd5bc68114a9cb3dc0737cd1f524
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3404581626915815
+    second: LogoStripes_0
+  - first:
+      213: -2368826090862794803
+    second: LogoStripes_1
+  - first:
+      213: -2213336779224817867
+    second: LogoStripes_2
+  - first:
+      213: 2647956035341444467
+    second: LogoStripes_3
+  - first:
+      213: 1620372740065709723
+    second: LogoStripes_4
+  - first:
+      213: 1404084431021296105
+    second: LogoStripes_5
+  - first:
+      213: 880810782672559908
+    second: LogoStripes_6
+  - first:
+      213: 7981275768095189286
+    second: LogoStripes_7
+  - first:
+      213: -7820325965959303000
+    second: LogoStripes_8
+  - first:
+      213: 758874392466766726
+    second: LogoStripes_9
+  - first:
+      213: -2855875559415595146
+    second: LogoStripes_10
+  - first:
+      213: 8034289262593799947
+    second: LogoStripes_11
+  - first:
+      213: -2560167947425081337
+    second: LogoStripes_12
+  - first:
+      213: -7317330143040322773
+    second: LogoStripes_13
+  - first:
+      213: 7961326395518961468
+    second: LogoStripes_14
+  - first:
+      213: -2002589545632072222
+    second: LogoStripes_15
+  - first:
+      213: -1976162231550488106
+    second: LogoStripes_16
+  - first:
+      213: -6183479389322979811
+    second: LogoStripes_17
+  - first:
+      213: -3159729686434703733
+    second: LogoStripes_18
+  - first:
+      213: -1669622527755939392
+    second: LogoStripes_19
+  - first:
+      213: 2355811680419748178
+    second: LogoStripes_20
+  - first:
+      213: -6815965440813178979
+    second: LogoStripes_21
+  - first:
+      213: -4296531425850699701
+    second: LogoStripes_22
+  - first:
+      213: -9199988091165292824
+    second: LogoStripes_23
+  - first:
+      213: -5493026365709910311
+    second: LogoStripes_24
+  - first:
+      213: -5646425720843417615
+    second: LogoStripes_25
+  - first:
+      213: -3547155312718968305
+    second: LogoStripes_26
+  - first:
+      213: 3060746283375829126
+    second: LogoStripes_27
+  - first:
+      213: -5964211534391819769
+    second: LogoStripes_28
+  - first:
+      213: -4667142149690825483
+    second: LogoStripes_29
+  - first:
+      213: 4182335762617283029
+    second: LogoStripes_30
+  - first:
+      213: -8798926596314627797
+    second: LogoStripes_31
+  - first:
+      213: -2659908517598882959
+    second: LogoStripes_32
+  - first:
+      213: -4701269463049811514
+    second: LogoStripes_33
+  - first:
+      213: -5212190397960544458
+    second: LogoStripes_34
+  - first:
+      213: -6076926942639089370
+    second: LogoStripes_35
+  - first:
+      213: 6669977503255112889
+    second: LogoStripes_36
+  - first:
+      213: -7273168957155358405
+    second: LogoStripes_37
+  - first:
+      213: -2131281902306415923
+    second: LogoStripes_38
+  - first:
+      213: -7612619976182727417
+    second: LogoStripes_39
+  - first:
+      213: 8644613590820530011
+    second: LogoStripes_40
+  - first:
+      213: -7617307372783366536
+    second: LogoStripes_41
+  - first:
+      213: 1943947501852267701
+    second: LogoStripes_42
+  - first:
+      213: 1268554123213794411
+    second: LogoStripes_43
+  - first:
+      213: -8750141681025539726
+    second: LogoStripes_44
+  - first:
+      213: -5074550686702396801
+    second: LogoStripes_45
+  - first:
+      213: 7123155107734916418
+    second: LogoStripes_46
+  - first:
+      213: 5448340272094491535
+    second: LogoStripes_47
+  - first:
+      213: -5137065102391957150
+    second: LogoStripes_48
+  - first:
+      213: -334312245957264420
+    second: LogoStripes_49
+  - first:
+      213: -7130086651481444785
+    second: LogoStripes_50
+  - first:
+      213: -4798228116253924679
+    second: LogoStripes_51
+  - first:
+      213: -2033430921478979012
+    second: LogoStripes_52
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LogoStripes_0
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 177
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eb2b7ee2781c0000800000000000000
+      internalID: 3404581626915815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_1
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 177
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc7227f883d302fd0800000000000000
+      internalID: -2368826090862794803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_2
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 177
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53f5ff11de5a841e0800000000000000
+      internalID: -2213336779224817867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_3
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 177
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 375e0631cfd6fb420800000000000000
+      internalID: 2647956035341444467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_4
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 152
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9ec7570c68bc7610800000000000000
+      internalID: 1620372740065709723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_5
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 152
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e94ea1d95f4c7310800000000000000
+      internalID: 1404084431021296105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_6
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 152
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42f18877db4493c00800000000000000
+      internalID: 880810782672559908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_7
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 152
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6292fb3460033ce60800000000000000
+      internalID: 7981275768095189286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_8
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 152
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a07b33c7fe987390800000000000000
+      internalID: -7820325965959303000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_9
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 152
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68b3f104d30188a00800000000000000
+      internalID: 758874392466766726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_10
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 152
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67f305e4f44ed58d0800000000000000
+      internalID: -2855875559415595146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_11
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 127
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0773af44878f7f60800000000000000
+      internalID: 8034289262593799947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_12
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 127
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7081360f0d4787cd0800000000000000
+      internalID: -2560167947425081337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_13
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 127
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b23c2d7f00f937a90800000000000000
+      internalID: -7317330143040322773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_14
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 127
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3749d10d205c7e60800000000000000
+      internalID: 7961326395518961468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_15
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 127
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ed70bd1b6f5534e0800000000000000
+      internalID: -2002589545632072222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_16
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 127
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d1d3e9abe24394e0800000000000000
+      internalID: -1976162231550488106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_17
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 127
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d165473c14edf2aa0800000000000000
+      internalID: -6183479389322979811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_18
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 127
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b869dc557926624d0800000000000000
+      internalID: -3159729686434703733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_19
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 127
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c11e14382f44d8e0800000000000000
+      internalID: -1669622527755939392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_20
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 102
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2599221ed3681b020800000000000000
+      internalID: 2355811680419748178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_21
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 102
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9fddfa4b83d861a0800000000000000
+      internalID: -6815965440813178979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_22
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 102
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b40ddd3ae67af54c0800000000000000
+      internalID: -4296531425850699701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_23
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 102
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e6c4402393135080800000000000000
+      internalID: -9199988091165292824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_24
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 102
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9de710aaf99d4c3b0800000000000000
+      internalID: -5493026365709910311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_25
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 102
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f7cf7219bdd3a1b0800000000000000
+      internalID: -5646425720843417615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_26
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 102
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0a0f366909f5cec0800000000000000
+      internalID: -3547155312718968305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_27
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 102
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 680a6383784f97a20800000000000000
+      internalID: 3060746283375829126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_28
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 102
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 702c94f853dda3da0800000000000000
+      internalID: -5964211534391819769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_29
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 77
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f4ec6341fafa3fb0800000000000000
+      internalID: -4667142149690825483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_30
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 77
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d137369734aa0a30800000000000000
+      internalID: 4182335762617283029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_31
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 77
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b210eed11eee3e580800000000000000
+      internalID: -8798926596314627797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_32
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 77
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1739b79cb4b161bd0800000000000000
+      internalID: -2659908517598882959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_33
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 77
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c9468de45cb1ceb0800000000000000
+      internalID: -4701269463049811514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_34
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 77
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63f1cdbc2749aa7b0800000000000000
+      internalID: -5212190397960544458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_35
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 77
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6291ff1842b6aaba0800000000000000
+      internalID: -6076926942639089370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_36
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 77
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bc2e5d3335809c50800000000000000
+      internalID: 6669977503255112889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_37
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 52
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b394b5d4e53801b90800000000000000
+      internalID: -7273168957155358405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_38
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 52
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcaaec0e66a2c62e0800000000000000
+      internalID: -2131281902306415923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_39
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 52
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70df59d077a8a5690800000000000000
+      internalID: -7612619976182727417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_40
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 52
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b572f5d7246d7f770800000000000000
+      internalID: 8644613590820530011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_41
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 52
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e884c7d43e94690800000000000000
+      internalID: -7617307372783366536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_42
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 52
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b499e514f94afa10800000000000000
+      internalID: 1943947501852267701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_43
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 27
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6ce384014fca9110800000000000000
+      internalID: 1268554123213794411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_44
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 27
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27122285080419680800000000000000
+      internalID: -8750141681025539726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_45
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 27
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7a936c59039399b0800000000000000
+      internalID: -5074550686702396801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_46
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 27
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24d8c8494d78ad260800000000000000
+      internalID: 7123155107734916418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_47
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 27
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f83b5a56c946c9b40800000000000000
+      internalID: 5448340272094491535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_48
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 2
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2692fd7b18a75b8b0800000000000000
+      internalID: -5137065102391957150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_49
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 2
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdb77a798c84c5bf0800000000000000
+      internalID: -334312245957264420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_50
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 2
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ea1b0a7f7dc0d90800000000000000
+      internalID: -7130086651481444785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_51
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 2
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b2a46b43f4496db0800000000000000
+      internalID: -4798228116253924679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoStripes_52
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 2
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3243f9b95dc7c3e0800000000000000
+      internalID: -2033430921478979012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LogoStripes_0: 3404581626915815
+      LogoStripes_1: -2368826090862794803
+      LogoStripes_10: -2855875559415595146
+      LogoStripes_11: 8034289262593799947
+      LogoStripes_12: -2560167947425081337
+      LogoStripes_13: -7317330143040322773
+      LogoStripes_14: 7961326395518961468
+      LogoStripes_15: -2002589545632072222
+      LogoStripes_16: -1976162231550488106
+      LogoStripes_17: -6183479389322979811
+      LogoStripes_18: -3159729686434703733
+      LogoStripes_19: -1669622527755939392
+      LogoStripes_2: -2213336779224817867
+      LogoStripes_20: 2355811680419748178
+      LogoStripes_21: -6815965440813178979
+      LogoStripes_22: -4296531425850699701
+      LogoStripes_23: -9199988091165292824
+      LogoStripes_24: -5493026365709910311
+      LogoStripes_25: -5646425720843417615
+      LogoStripes_26: -3547155312718968305
+      LogoStripes_27: 3060746283375829126
+      LogoStripes_28: -5964211534391819769
+      LogoStripes_29: -4667142149690825483
+      LogoStripes_3: 2647956035341444467
+      LogoStripes_30: 4182335762617283029
+      LogoStripes_31: -8798926596314627797
+      LogoStripes_32: -2659908517598882959
+      LogoStripes_33: -4701269463049811514
+      LogoStripes_34: -5212190397960544458
+      LogoStripes_35: -6076926942639089370
+      LogoStripes_36: 6669977503255112889
+      LogoStripes_37: -7273168957155358405
+      LogoStripes_38: -2131281902306415923
+      LogoStripes_39: -7612619976182727417
+      LogoStripes_4: 1620372740065709723
+      LogoStripes_40: 8644613590820530011
+      LogoStripes_41: -7617307372783366536
+      LogoStripes_42: 1943947501852267701
+      LogoStripes_43: 1268554123213794411
+      LogoStripes_44: -8750141681025539726
+      LogoStripes_45: -5074550686702396801
+      LogoStripes_46: 7123155107734916418
+      LogoStripes_47: 5448340272094491535
+      LogoStripes_48: -5137065102391957150
+      LogoStripes_49: -334312245957264420
+      LogoStripes_5: 1404084431021296105
+      LogoStripes_50: -7130086651481444785
+      LogoStripes_51: -4798228116253924679
+      LogoStripes_52: -2033430921478979012
+      LogoStripes_6: 880810782672559908
+      LogoStripes_7: 7981275768095189286
+      LogoStripes_8: -7820325965959303000
+      LogoStripes_9: 758874392466766726
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

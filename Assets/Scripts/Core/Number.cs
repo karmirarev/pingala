@@ -1,4 +1,4 @@
-using TMPro;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -6,14 +6,13 @@ using UnityEngine.UI;
 public class Number : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IPointerExitHandler
 {
     [SerializeField] IOManager ioManager;
-    [SerializeField] private Color markedColor = new Color(0.85f, 0.35f, 0.3f, 1f);
+    [SerializeField] private Image markDot;
+    [SerializeField] private Image ring;
     [SerializeField] private float longPressTime = 0.5f;
+    [SerializeField] private float ringTime = 0.35f;
     public int digit;
 
     private Button button;
-    private Image image;
-    private TextMeshProUGUI text;
-    private Color normalColor;
     private bool isMarked;
     private bool isHolding;
     private bool wasLongPress;
@@ -22,9 +21,8 @@ public class Number : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IPo
     private void Awake()
     {
         button = GetComponent<Button>();
-        image = GetComponent<Image>();
-        text = GetComponentInChildren<TextMeshProUGUI>();
-        normalColor = image.color;
+        markDot.enabled = false;
+        ring.fillAmount = 0;
     }
 
     private void Update()
@@ -60,7 +58,7 @@ public class Number : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IPo
 
     public void OnNumberClick()
     {
-        if (wasLongPress || isMarked) return;
+        if (wasLongPress) return;
 
         ioManager.HandleNumberInput(digit);
     }
@@ -68,13 +66,33 @@ public class Number : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IPo
     public void SetUsed(bool used)
     {
         button.interactable = !used;
-        text.alpha = used ? 0.3f : 1f;
+        StopAllCoroutines();
+
+        if (used)
+        {
+            StartCoroutine(DrawRing());
+        }
+        else
+        {
+            ring.fillAmount = 0;
+        }
+    }
+
+    private IEnumerator DrawRing()
+    {
+        float t = 0;
+
+        while (t < 1f)
+        {
+            t = Mathf.Min(t + Time.deltaTime / ringTime, 1f);
+            ring.fillAmount = 1f - (1f - t) * (1f - t);
+            yield return null;
+        }
     }
 
     private void ToggleMark()
     {
         isMarked = !isMarked;
-        image.color = isMarked ? markedColor : normalColor;
-        button.transition = isMarked ? Selectable.Transition.None : Selectable.Transition.ColorTint;
+        markDot.enabled = isMarked;
     }
 }

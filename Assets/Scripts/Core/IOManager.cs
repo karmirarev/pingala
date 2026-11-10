@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
@@ -11,6 +12,10 @@ public class IOManager : MonoBehaviour
     [SerializeField] private GameObject WinningText;
     [SerializeField] private GameObject LosingText;
     [SerializeField] private Tile[] hiddenTiles;
+    [SerializeField] private RectTransform rowArrow;
+    [SerializeField] private TextMeshProUGUI triesText;
+    [SerializeField] private ThemeColor submitLabel;
+    [SerializeField] private TextMeshProUGUI resultNumberText;
 
     private Row[] inputRows;
     private Row[] outputRows;
@@ -20,18 +25,19 @@ public class IOManager : MonoBehaviour
     private int correctNumberCounter;
     private int correctPlacementCounter;
     private int[] hiddenNumber;
-    private bool gameOver;
+    public bool gameOver { get; private set; }
 
     void Start()
     {
         GenerateHiddenNumber();
+        Refresh();
     }
 
     private void Awake()
     {
         inputRows = inputField.GetComponentsInChildren<Row>();
         outputRows = outputField.GetComponentsInChildren<Row>();
-        numberKeys = FindObjectsByType<Number>(FindObjectsSortMode.None);
+        numberKeys = FindObjectsByType<Number>();
     }
 
     public void GenerateHiddenNumber()
@@ -87,6 +93,7 @@ public class IOManager : MonoBehaviour
             inputRows[currentRowIndex].tiles[currentColumnIndex].SetDigit(inputNumber);
             currentColumnIndex++;
             SetKeyUsed(inputNumber, true);
+            Refresh();
         }
     }
 
@@ -100,6 +107,7 @@ public class IOManager : MonoBehaviour
             Tile tile = inputRows[currentRowIndex].tiles[currentColumnIndex];
             SetKeyUsed(tile.digit, false);
             tile.ClearLastDigit();
+            Refresh();
         }
     }
 
@@ -142,6 +150,27 @@ public class IOManager : MonoBehaviour
             gameOver = true;
             StartCoroutine(RevealSequence(false));
         }
+
+        Refresh();
+    }
+
+    private void Refresh()
+    {
+        for (int i = 0; i < inputRows.Length; i++)
+        {
+            for (int j = 0; j < inputRows[i].tiles.Length; j++)
+            {
+                inputRows[i].tiles[j].SetPlaceholder(!gameOver && i == currentRowIndex && j >= currentColumnIndex);
+            }
+        }
+
+        rowArrow.gameObject.SetActive(!gameOver);
+        rowArrow.anchoredPosition = new Vector2(rowArrow.anchoredPosition.x, -currentRowIndex * rowArrow.rect.height);
+
+        int shownTry = Mathf.Min(currentRowIndex + (gameOver ? 0 : 1), inputRows.Length);
+        triesText.text = "TRY " + shownTry.ToString("00") + "/" + inputRows.Length;
+
+        submitLabel.SetRole(currentColumnIndex == 4 && !gameOver ? ColorRole.Ink : ColorRole.Faint);
     }
 
     private IEnumerator RevealSequence(bool isWinning)
@@ -160,6 +189,7 @@ public class IOManager : MonoBehaviour
 
         yield return new WaitForSeconds(1f);
 
+        resultNumberText.text = "the number was " + string.Join("", hiddenNumber);
         WinningLosingPanel.SetActive(true);
         if (isWinning)
         {
